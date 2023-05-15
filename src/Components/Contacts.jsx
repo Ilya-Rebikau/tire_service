@@ -53,8 +53,8 @@ export default class Contacts extends Component {
                     </div>
                     <div className="col-auto flex-grow-1">
                         <p className="fs-1 text-center">Наши контакты</p>
-                        <p className="fs-3">Геннадий: <img src={phone} alt="phone" /> <a href="tel:+375 (29) 364-19-78" >+375(29)364-19-78</a>, <img src={email} alt="email" /> <a href="mailto:rebikov71@bk.ru" >rebikov71@bk.ru</a></p>
-                        <p className="fs-3">Александр: <img src={phone} alt="phone" /> <a href="tel:+375 (29) 658-32-01" >+375(29)658-32-01</a></p>
+                        <p className="fs-3">Геннадий: <a href="tel:+375 (29) 364-19-78" ><img src={phone} alt="phone" />+375(29)364-19-78</a>, <a href="mailto:rebikov71@bk.ru"><img src={email} alt="email" /> rebikov71@bk.ru</a></p>
+                        <p className="fs-3">Александр: <a href="tel:+375 (29) 658-32-01" ><img src={phone} alt="phone" />+375(29)658-32-01</a></p>
                         <div className="row d-flex justify-content-center">
                             <img className="col-auto" src={tire} alt="tire" />
                             <img className="col-auto" src={tire} alt="tire" />

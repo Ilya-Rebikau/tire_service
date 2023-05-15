@@ -3,17 +3,18 @@ import car from '../Assets/car.png'
 import jeep from '../Assets/jeep.png'
 import truck from '../Assets/truck.png'
 import gazelle from '../Assets/gazelle.png'
+import tire from '../Assets/tire.gif'
 
 export default class Services extends Component {
     render() {
         return (
             <div className="container">
-                <p className="fs-1 text-center">Наши услуги</p>
+                <p className="fs-1 text-center"><img className="col-auto" src={tire} alt="tire" /> Наши услуги <img className="col-auto" src={tire} alt="tire" /></p>
                 <div className="d-flex flex-column justify-content-center">
                     <p className="fs-2 text-center">Пакет услуг - шиномонтаж (немного дешевле чем по отдельности)</p>
                     <div className="table-responsive">
                     <table className="table text-center align-middle table-bordered table-hover">
-                                <thead className="bg-dark align-middle">
+                                <thead className="bg-primary align-middle">
                                     <tr className="text-white">
                                         <th>Условие</th>
                                         <th>Радиус колеса</th>
@@ -151,7 +152,7 @@ export default class Services extends Component {
                         <p className="fs-3 text-center">Шиномонтаж разборка-сборка</p>
                         <div className="table-responsive">
                             <table className="table text-center align-middle table-bordered table-hover">
-                                <thead className="bg-dark align-middle">
+                                <thead className="bg-primary align-middle">
                                     <tr className="text-white">
                                         <th>Тип авто</th>
                                         <th>Радиус колеса</th>
@@ -196,7 +197,7 @@ export default class Services extends Component {
                         <p className="fs-3 text-center">Ремонт</p>
                         <div className="table-responsive">
                             <table className="table text-center align-middle table-bordered table-hover">
-                                <thead className="bg-dark align-middle">
+                                <thead className="bg-primary align-middle">
                                     <tr className="text-white">
                                         <th>Ремонт</th>
                                         <th>Стоимость услуг, бел. руб</th>
@@ -245,7 +246,7 @@ export default class Services extends Component {
                         <p className="fs-3 text-center">Раскатка дисков</p>
                         <div className="table-responsive">
                             <table className="table text-center align-middle table-bordered table-hover">
-                                <thead className="bg-dark align-middle">
+                                <thead className="bg-primary align-middle">
                                     <tr className="text-white">
                                         <th>Тип авто и диска</th>
                                         <th>Стоимость услуг, бел. руб</th>
@@ -272,7 +273,7 @@ export default class Services extends Component {
                         <p className="fs-3 text-center">Балансировка</p>
                         <div className="table-responsive">
                             <table className="table text-center align-middle table-bordered table-hover">
-                                <thead className="bg-dark align-middle">
+                                <thead className="bg-primary align-middle">
                                     <tr className="text-white">
                                         <th>Размер колеса и/или тип авто</th>
                                         <th>Диск</th>
@@ -312,7 +313,7 @@ export default class Services extends Component {
                         <p className="fs-3 text-center">Снятие/установка колёс с ремонтом</p>
                         <div className="table-responsive">
                             <table className="table text-center align-middle table-bordered table-hover">
-                                <thead className="bg-dark align-middle">
+                                <thead className="bg-primary align-middle">
                                     <tr className="text-white">
                                         <th>Услуга</th>
                                         <th>Стоимость услуг, бел. руб</th>
@@ -341,7 +342,7 @@ export default class Services extends Component {
                         <p className="fs-3 text-center">Вентили</p>
                         <div className="table-responsive">
                             <table className="table text-center align-middle table-bordered table-hover">
-                                <thead className="bg-dark align-middle">
+                                <thead className="bg-primary align-middle">
                                     <tr className="text-white">
                                         <th>Название вентиля</th>
                                         <th>Стоимость услуг, бел. руб</th>
