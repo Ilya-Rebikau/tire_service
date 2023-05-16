@@ -7,6 +7,9 @@ import i1_vertical from '../Assets/1_vertical.jpg'
 import i2_vertical from '../Assets/2_vertical.jpg'
 
 export default class MainPage extends Component {
+    componentDidMount() {
+        document.title = "MASTER ШиН"
+    }
     render() {
         return (
             <div style={{ width: '100%' }}>
