@@ -28,13 +28,13 @@ export default class AboutUs extends Component {
                         <article className="d-flex justify-content-center row">
                             <div className="text-center col-sm-5 border rounded border-dark bg-light bg-gradient m-3 p-3">
                                 <p className="fs-3">Ребиков Александр Евгеньевич</p>
-                                <img className="img-thumbnail img-fluid" src={i1_horizontal} alt="Ребиков Александр Евгеньевич"></img>
+                                <img className="img-thumbnail img-fluid" src={i1_vertical} alt="Ребиков Александр Евгеньевич"></img>
                                 <p className="pt-2 fs-5">Индивидуальный предприниматель и владелец.
                                     Профессионал своего дела со стажем более 30 лет.</p>
                             </div>
                             <div className="text-center col-sm-5 border rounded border-dark bg-light bg-gradient m-3 p-3">
                                 <p className="fs-3">Ребиков Геннадий Евгеньевич</p>
-                                <img className="img-thumbnail img-fluid" src={i2_horizontal} alt="Ребиков Геннадий Евгеньевич"></img>
+                                <img className="img-thumbnail img-fluid" src={i2_vertical} alt="Ребиков Геннадий Евгеньевич"></img>
                                 <p className="pt-2 fs-5">Совладелец. Профессионал своего дела со стажем более 30 лет.</p>
                             </div>
                         </article>
