@@ -9,7 +9,7 @@ import i2_vertical from '../Assets/2_vertical.jpg'
 
 export default class AboutUs extends Component {
     componentDidMount() {
-        document.title = "О нас"
+        document.title = "О нас - Шиномонтаж MASTER ШиН"
     }
 
     render() {

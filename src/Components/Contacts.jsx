@@ -22,7 +22,7 @@ export default class Contacts extends Component {
     }
 
     componentDidMount() {
-        document.title = "Контакты"
+        document.title = "Контакты - Шиномонтаж MASTER ШиН"
     }
 
     render() {
@@ -34,7 +34,7 @@ export default class Contacts extends Component {
             <div className="container px-3 py-2">
                 <div className="d-flex row border rounded border-dark bg-light bg-gradient px-3 py-3">
                     <section className="col-auto me-5">
-                        <p className="fs-1 text-center fw-weight-bolder"><img src={map} alt="map" /> Мы на карте</p>
+                        <h2 className="text-center"><img src={map} alt="map" /> Мы на карте</h2>
                         <YMaps>
                             <Map
                                 defaultState={{
@@ -57,7 +57,7 @@ export default class Contacts extends Component {
                     </section>
                     <section className="col-auto flex-grow-1">
                         <article>
-                            <p className="fs-1 text-center"><img src={tire} alt="tire" /> Наши контакты <img src={tire} alt="tire" /></p>
+                            <h2 className="fs-1 text-center"><img src={tire} alt="tire" /> Наши контакты <img src={tire} alt="tire" /></h2>
                             <p className="fs-3">Геннадий: <a href="tel:+375 (29) 364-19-78" ><img src={phone} alt="phone" />+375(29)364-19-78</a>, <a href="mailto:rebikov71@bk.ru"><img src={email} alt="email" /> rebikov71@bk.ru</a></p>
                             <p className="fs-3">Александр: <a href="tel:+375 (29) 658-32-01" ><img src={phone} alt="phone" />+375(29)658-32-01</a></p>
                             <div className="row d-flex justify-content-center">
@@ -68,7 +68,7 @@ export default class Contacts extends Component {
                             </div>
                         </article>
                         <article>
-                            <p className="text-center fs-1">Время работы</p>
+                            <h2 className="text-center fs-1">Время работы</h2>
                             <p className="fs-3 text-center"><img src={time} alt="time" /> 7 дней в неделю с 8:00 до 20:00</p>
                         </article>
                     </section>

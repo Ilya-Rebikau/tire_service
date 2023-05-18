@@ -7,14 +7,14 @@ import tire from '../Assets/tire.gif'
 
 export default class Services extends Component {
     componentDidMount() {
-        document.title = "Услуги"
+        document.title = "Услуги - Шиномонтаж MASTER ШиН"
     }
     render() {
         return (
             <div className="container">
-                <p className="fs-1 text-center"><img src={tire} alt="tire" /> Наши услуги <img src={tire} alt="tire" /></p>
+                <h2 className="text-center"><img src={tire} alt="tire" /> Наши услуги <img src={tire} alt="tire" /></h2>
                 <div className="d-flex flex-column justify-content-center">
-                    <p className="fs-2 text-center">Пакет услуг - шиномонтаж (немного дешевле чем по отдельности)</p>
+                    <h3 className="text-center">Пакет услуг - шиномонтаж (немного дешевле чем по отдельности)</h3>
                     <div className="table-responsive">
                         <table className="table text-center align-middle table-bordered table-hover">
                             <thead className="bg-success align-middle">
@@ -150,9 +150,9 @@ export default class Services extends Component {
                     </div>
                 </div>
                 <div className="row">
-                    <p className="fs-2 text-center">Услуги по отдельности</p>
+                    <h3 className="text-center">Услуги по отдельности</h3>
                     <div className="col-sm-6 d-flex flex-column">
-                        <p className="fs-3 text-center">Шиномонтаж разборка-сборка</p>
+                        <h3 className="text-center">Шиномонтаж разборка-сборка</h3>
                         <div className="table-responsive">
                             <table className="table text-center align-middle table-bordered table-hover">
                                 <thead className="bg-success align-middle">
@@ -197,7 +197,7 @@ export default class Services extends Component {
                                 </tbody>
                             </table>
                         </div>
-                        <p className="fs-3 text-center">Ремонт</p>
+                        <h3 className="text-center">Ремонт</h3>
                         <div className="table-responsive">
                             <table className="table text-center align-middle table-bordered table-hover">
                                 <thead className="bg-success align-middle">
@@ -246,7 +246,7 @@ export default class Services extends Component {
                                 </tbody>
                             </table>
                         </div>
-                        <p className="fs-3 text-center">Раскатка дисков</p>
+                        <h3 className="text-center">Раскатка дисков</h3>
                         <div className="table-responsive">
                             <table className="table text-center align-middle table-bordered table-hover">
                                 <thead className="bg-success align-middle">
@@ -273,7 +273,7 @@ export default class Services extends Component {
                         </div>
                     </div>
                     <div className="col-sm-6 d-flex flex-column">
-                        <p className="fs-3 text-center">Балансировка</p>
+                        <h3 className="text-center">Балансировка</h3>
                         <div className="table-responsive">
                             <table className="table text-center align-middle table-bordered table-hover">
                                 <thead className="bg-success align-middle">
@@ -313,7 +313,7 @@ export default class Services extends Component {
                                 </tbody>
                             </table>
                         </div>
-                        <p className="fs-3 text-center">Снятие/установка колёс с ремонтом</p>
+                        <h3 className="text-center">Снятие/установка колёс с ремонтом</h3>
                         <div className="table-responsive">
                             <table className="table text-center align-middle table-bordered table-hover">
                                 <thead className="bg-success align-middle">
@@ -342,7 +342,7 @@ export default class Services extends Component {
                                 </tbody>
                             </table>
                         </div>
-                        <p className="fs-3 text-center">Вентили</p>
+                        <h3 className="text-center">Вентили</h3>
                         <div className="table-responsive">
                             <table className="table text-center align-middle table-bordered table-hover">
                                 <thead className="bg-success align-middle">

@@ -8,11 +8,12 @@ import i2_vertical from '../Assets/2_vertical.jpg'
 
 export default class MainPage extends Component {
     componentDidMount() {
-        document.title = "MASTER ШиН"
+        document.title = "Главная - Шиномонтаж MASTER ШиН"
     }
     render() {
         return (
             <div style={{ width: '100%' }}>
+                <h1 className="text-center">Шиномонтаж MASTER ШиН</h1>
                 <section>
                     <Carousel fade interval={15000} variant="dark">
                         <Carousel.Item>
