@@ -17,7 +17,7 @@ export default class AboutUs extends Component {
             <div className="container">
                 <div className="d-flex flex-column">
                     <section>
-                        <p className="fs-1 text-center"><img src={tire} alt="tire" /> Наши сотрудники <img src={tire} alt="tire" /></p>
+                        <h2 className="fs-1 text-center"><img src={tire} alt="tire" /> Наши сотрудники <img src={tire} alt="tire" /></h2>
                         <article>
                             <p className="fs-4 text-center">Два брата, два профессионала своего дела, однажды решили заняться собственным
                                 бизнесом и зарегистрировали ИП: так и возник наш шиномонтаж MASTER ШиН. Братья создали 2 команды, каждую из которых возглавил
@@ -40,7 +40,7 @@ export default class AboutUs extends Component {
                         </article>
                     </section>
                     <section className="pt-3">
-                        <p className="fs-1 text-center"><img src={tire} alt="tire" /> Оборудование <img src={tire} alt="tire" /></p>
+                        <h2 className="fs-1 text-center"><img src={tire} alt="tire" /> Оборудование <img src={tire} alt="tire" /></h2>
                         <article>
                             <p className="fs-4 text-center">
                                 Мы используем только современное и проверенное оборудование, необходимое для качественного
