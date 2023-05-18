@@ -7,7 +7,7 @@ export default class Header extends Component {
             <header>
                 <nav className="navbar navbar-expand-sm navbar-dark bg-black border-bottom box-shadow mb-3 pb-3 pt-3">
                     <div className="container-fluid">
-                        <Link to="/*" className="navbar-brand ps-4">Главная</Link>
+                        <Link to="/" className="navbar-brand ps-4">Главная</Link>
                         <button className="navbar-toggler me-2" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                         </button>
