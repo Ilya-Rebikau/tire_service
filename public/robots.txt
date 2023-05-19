@@ -1,7 +1,4 @@
 User-agent: *
 Allow: *
-Disallow: *.css
-Disallow: *.js
 Sitemap: https://master-shin.netlify.app/sitemap.xml
 Host: https://master-shin.netlify.app
-Crawl-delay: 3
