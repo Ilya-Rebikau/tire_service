@@ -13,7 +13,7 @@ export default function App() {
       <Header />
       <main className="pb-5">
           <Routes>
-            <Route path='*' element={<NotFound />} />
+            <Route path='*' element={<NotFound status={404} />} />
             <Route path='/' element={<MainPage />} />
             <Route path='/services' element={<Services />} />
             <Route path='/about' element={<AboutUs />} />
