@@ -1,14 +1,15 @@
 {
   "short_name": "MASTER ШиН",
   "name": "Шиномонтаж MASTER ШиН",
-  "icons": [
-    {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    }
-  ],
   "start_url": ".",
+  "icons": [
+    { "src": "favicons/16.png", "type": "image/png", "sizes": "16x16" },
+    { "src": "favicons/32.png", "type": "image/png", "sizes": "32x32" },
+    { "src": "favicons/64.png", "type": "image/png", "sizes": "64x64" },
+    { "src": "favicons/128.png", "type": "image/png", "sizes": "128x128" },
+    { "src": "favicons/256.png", "type": "image/png", "sizes": "256x256" },
+    { "src": "favicons/512.png", "type": "image/png", "sizes": "512x512" }
+  ],
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"

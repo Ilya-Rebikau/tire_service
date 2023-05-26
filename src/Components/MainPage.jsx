@@ -21,8 +21,8 @@ export default class MainPage extends Component {
                                 <img className="d-block w-100" src={i1_vertical} alt="First slide" /> :
                                 <img className="d-block w-100" src={i1_horizontal} alt="First slide" />}
                             <Carousel.Caption>
-                                <h3>First slide label</h3>
-                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                <h3>Заголовок</h3>
+                                <p>Мы ещё не сделали фотографии, поэтому пока что тут котики :3</p>
                             </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>
@@ -30,8 +30,8 @@ export default class MainPage extends Component {
                                 <img className="d-block w-100" src={i2_vertical} alt="Second slide" /> :
                                 <img className="d-block w-100" src={i2_horizontal} alt="Second slide" />}
                             <Carousel.Caption>
-                                <h3>Second slide label</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <h3>Заголовок</h3>
+                                <p>Мы ещё не сделали фотографии, поэтому пока что тут котики :3</p>
                             </Carousel.Caption>
                         </Carousel.Item>
                     </Carousel>
