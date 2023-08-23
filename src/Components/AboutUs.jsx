@@ -1,11 +1,12 @@
 import React, { Component } from "react";
 import Carousel from 'react-bootstrap/Carousel';
-import { isMobile } from 'react-device-detect';
 import tire from '../Assets/tire.gif'
-import i1_horizontal from '../Assets/1_horizontal.jpg'
-import i2_horizontal from '../Assets/2_horizontal.jpg'
+import removal_machine_1 from '../Assets/removal_machine_1.jpg'
+import removal_machine_2 from '../Assets/removal_machine_2.jpg'
+import balancing_machine from '../Assets/balancing_machine.jpg'
+import rolling_machine from '../Assets/rolling_machine.jpg'
+import gena_vertical from '../Assets/gena_vertical.jpg'
 import i1_vertical from '../Assets/1_vertical.jpg'
-import i2_vertical from '../Assets/2_vertical.jpg'
 
 export default class AboutUs extends Component {
     componentDidMount() {
@@ -34,7 +35,7 @@ export default class AboutUs extends Component {
                             </div>
                             <div className="text-center col-sm-5 border rounded border-dark bg-light bg-gradient m-3 p-3">
                                 <p className="fs-3">Ребиков Геннадий Евгеньевич</p>
-                                <img className="img-thumbnail img-fluid" src={i2_vertical} alt="Ребиков Геннадий Евгеньевич"></img>
+                                <img className="img-thumbnail img-fluid" src={gena_vertical} alt="Ребиков Геннадий Евгеньевич"></img>
                                 <p className="pt-2 fs-5">Совладелец. Профессионал своего дела со стажем более 30 лет.</p>
                             </div>
                         </article>
@@ -50,21 +51,27 @@ export default class AboutUs extends Component {
                         <article className="d-flex justify-content-center">
                             <Carousel fade interval={15000} variant="dark">
                                 <Carousel.Item>
-                                    {isMobile ?
-                                        <img className="d-block w-100" src={i1_vertical} alt="First slide" /> :
-                                        <img className="d-block w-100" src={i1_horizontal} alt="First slide" />}
+                                    <img className="d-block w-100" src={balancing_machine} style={{ height: 600 }} alt="First slide" />
                                     <Carousel.Caption>
-                                        <h3>Заголовок</h3>
-                                        <p>Мы ещё не сделали фотографии, поэтому пока что тут котики :3</p>
+                                        <h3 className="text-white">Балансировка</h3>
                                     </Carousel.Caption>
                                 </Carousel.Item>
                                 <Carousel.Item>
-                                    {isMobile ?
-                                        <img className="d-block w-100" src={i2_vertical} alt="Second slide" /> :
-                                        <img className="d-block w-100" src={i2_horizontal} alt="Second slide" />}
+                                    <img className="d-block w-100" src={rolling_machine} style={{ height: 600 }} alt="Second slide" />
                                     <Carousel.Caption>
-                                        <h3>Заголовок</h3>
-                                        <p>Мы ещё не сделали фотографии, поэтому пока что тут котики :3</p>
+                                        <h3 className="text-white">Раскатка дисков</h3>
+                                    </Carousel.Caption>
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img className="d-block w-100" src={removal_machine_1} style={{ height: 600 }} alt="Third slide" />
+                                    <Carousel.Caption>
+                                        <h3 className="text-white">Шиномонтаж</h3>
+                                    </Carousel.Caption>
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img className="d-block w-100" src={removal_machine_2} style={{ height: 600 }} alt="Forth slide" />
+                                    <Carousel.Caption>
+                                        <h3 className="text-white">Шиномонтаж</h3>
                                     </Carousel.Caption>
                                 </Carousel.Item>
                             </Carousel>
