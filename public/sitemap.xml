@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-	<loc>https://master-shin.netlify.app/</loc>
-	<lastmod>2023-05-26T13:34:29+01:00</lastmod>
+	<loc>https://mastershin.by/</loc>
+	<lastmod>2023-08-24T22:12:15+01:00</lastmod>
 	<priority>0.6</priority>
 </url>
 <url>
-	<loc>https://master-shin.netlify.app/services</loc>
-	<lastmod>2023-05-26T13:34:29+01:00</lastmod>
+	<loc>https://mastershin.by/services</loc>
+	<lastmod>2023-08-24T22:12:15+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
 <url>
-	<loc>https://master-shin.netlify.app/about</loc>
-	<lastmod>2023-05-26T13:34:29+01:00</lastmod>
+	<loc>https://mastershin.by/about</loc>
+	<lastmod>2023-08-24T22:12:15+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
 <url>
-	<loc>https://master-shin.netlify.app/contacts</loc>
-	<lastmod>2023-05-26T13:34:29+01:00</lastmod>
+	<loc>https://mastershin.by/contacts</loc>
+	<lastmod>2023-08-24T22:12:15+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
 </urlset>

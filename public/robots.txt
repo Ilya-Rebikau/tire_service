@@ -1,4 +1,4 @@
 User-agent: *
 Allow: *
-Sitemap: https://master-shin.netlify.app/sitemap.xml
-Host: https://master-shin.netlify.app
+Sitemap: https://mastershin.by/sitemap.xml
+Host: https://mastershin.by
