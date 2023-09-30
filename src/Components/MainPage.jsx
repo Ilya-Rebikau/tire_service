@@ -1,10 +1,7 @@
 import React, { Component } from "react";
 import Carousel from 'react-bootstrap/Carousel';
-import { isMobile } from 'react-device-detect';
-import i1_horizontal from '../Assets/1_horizontal.jpg'
-import i2_horizontal from '../Assets/2_horizontal.jpg'
-import i1_vertical from '../Assets/1_vertical.jpg'
-import i2_vertical from '../Assets/2_vertical.jpg'
+import service1 from '../Assets/service1.jpg'
+import service2 from '../Assets/service2.jpg'
 
 export default class MainPage extends Component {
     componentDidMount() {
@@ -17,22 +14,13 @@ export default class MainPage extends Component {
                 <section>
                     <Carousel fade interval={15000} variant="dark">
                         <Carousel.Item>
-                            {isMobile ?
-                                <img className="d-block w-100" src={i1_vertical} alt="First slide" /> :
-                                <img className="d-block w-100" src={i1_horizontal} alt="First slide" />}
+                            <img className="d-block w-100" src={service1} alt="First slide" />
                             <Carousel.Caption>
-                                <h3>Заголовок</h3>
-                                <p>Мы ещё не сделали фотографии, поэтому пока что тут котики :3</p>
+                                <h3 className="text-white">Будем рады встретить Вас в лучшем шиномонтаже Гомеля!</h3>
                             </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>
-                            {isMobile ?
-                                <img className="d-block w-100" src={i2_vertical} alt="Second slide" /> :
-                                <img className="d-block w-100" src={i2_horizontal} alt="Second slide" />}
-                            <Carousel.Caption>
-                                <h3>Заголовок</h3>
-                                <p>Мы ещё не сделали фотографии, поэтому пока что тут котики :3</p>
-                            </Carousel.Caption>
+                            <img className="d-block w-100" src={service2} alt="Second slide" />
                         </Carousel.Item>
                     </Carousel>
                 </section>
