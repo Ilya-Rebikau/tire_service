@@ -26,7 +26,7 @@ export default class Feedback extends Component {
                 <section className="d-flex justify-content-center row">
                     <article className="text-center col-sm-7 border rounded border-dark bg-light bg-gradient m-3 p-3">
                         <div style={{ width:"100%", height:yandexHeight, overflow:"hidden", position:"relative" }}>
-                            <iframe style={{ width:"100%", height:"100%", border:"1px solid #e6e6e6", borderRadius:"8px", boxSizing:"border-box" }} src="https://yandex.ru/maps-reviews-widget/91289259818?comments"></iframe>
+                            <iframe title="feedback" style={{ width:"100%", height:"100%", border:"1px solid #e6e6e6", borderRadius:"8px", boxSizing:"border-box" }} src="https://yandex.ru/maps-reviews-widget/91289259818?comments"></iframe>
                         </div>
                     </article>
                 </section>
