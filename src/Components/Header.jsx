@@ -22,6 +22,9 @@ export default class Header extends Component {
                                 <li className="nav-item">
                                     <Link to="/contacts" className="nav-link text-white">Контакты</Link>
                                 </li>
+                                <li className="nav-item">
+                                    <Link to="/feedback" className="nav-link text-white">Отзывы</Link>
+                                </li>
                             </ul>
                             <ul className="navbar-nav d-flex justify-content-end px-1">
                                 <li className="nav-item text-center text-white">

@@ -6,7 +6,7 @@ import removal_machine_2 from '../Assets/removal_machine_2.jpg'
 import balancing_machine from '../Assets/balancing_machine.jpg'
 import rolling_machine from '../Assets/rolling_machine.jpg'
 import gena_vertical from '../Assets/gena_vertical.jpg'
-import i1_vertical from '../Assets/1_vertical.jpg'
+import no_photo from '../Assets/no_photo.jpg'
 
 export default class AboutUs extends Component {
     componentDidMount() {
@@ -29,7 +29,7 @@ export default class AboutUs extends Component {
                         <article className="d-flex justify-content-center row">
                             <div className="text-center col-sm-5 border rounded border-dark bg-light bg-gradient m-3 p-3">
                                 <p className="fs-3">Ребиков Александр Евгеньевич</p>
-                                <img className="img-thumbnail img-fluid" src={i1_vertical} alt="Ребиков Александр Евгеньевич"></img>
+                                <img className="img-thumbnail img-fluid" src={no_photo} alt="Ребиков Александр Евгеньевич"></img>
                                 <p className="pt-2 fs-5">Индивидуальный предприниматель и владелец.
                                     Профессионал своего дела со стажем более 30 лет.</p>
                             </div>

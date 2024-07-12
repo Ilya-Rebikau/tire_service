@@ -6,7 +6,7 @@ export default class Footer extends Component {
         return (
             <footer className="bg-light fixed-bottom py-2 footer border-top text-muted">
                 <div className="text-center">
-                    &copy; 2023 - Шиномонтаж ИП Ребиков А. Е.
+                    &copy; 2024 - Шиномонтаж ИП Ребиков А. Е.
                 </div>
             </footer>
         )
