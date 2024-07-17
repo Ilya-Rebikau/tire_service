@@ -8,7 +8,7 @@ export default class Feedback extends Component {
             yandexHeight: 750
         }
         if (isMobile) {
-            this.state.yandexHeight = this.props.screenHeight / 2;
+            this.state.yandexHeight = this.props.screenHeight;
         }
     }
 
