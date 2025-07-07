@@ -12,7 +12,7 @@ export default class Services extends Component {
                 <h2 className="text-center"><img src={tire} alt="tire" /> Автокондиционеры <img src={tire} alt="tire" /></h2>
                 <div className="d-flex flex-column justify-content-center">
                     <h2 className="text-center">Обращаться по  
-                        <a href="tel:+375 (29) 658-32-01" ><img src={phone} alt="phone" />+375(44)734-17-84</a> - Валентин</h2>
+                        <a href="tel:+375 (44) 734-17-84" ><img src={phone} alt="phone" />+375(44)734-17-84</a> - Валентин</h2>
                     <div className="table-responsive">
                         <table className="table text-center align-middle table-bordered table-hover">
                             <thead className="bg-success align-middle">
