@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import car from '../Assets/car.png'
 import jeep from '../Assets/jeep.png'
 import truck from '../Assets/truck.png'
-import gazelle from '../Assets/gazelle.png'
 import tire from '../Assets/tire.gif'
 
 export default class Services extends Component {
