@@ -28,7 +28,7 @@ export default class Services extends Component {
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td className="align-middle" rowSpan={2}>Железные диски</td>
+                                    <td className="align-middle" rowSpan={2}>Железные диски<br /><img src={car} alt="car" /></td>
                                     <td>R 13-14</td>
                                     <td>14 руб. 0 коп.</td>
                                 </tr>
@@ -37,7 +37,7 @@ export default class Services extends Component {
                                     <td className="align-middle">14 руб. 0 коп.</td>
                                 </tr>
                                 <tr>
-                                    <td className="align-middle" rowSpan={7}>Литые диски</td>
+                                    <td className="align-middle" rowSpan={7}>Литые диски<br /><img src={car} alt="car" /></td>
                                     <td>R 13-14</td>
                                     <td>15 руб. 50 коп.</td>
                                 </tr>
