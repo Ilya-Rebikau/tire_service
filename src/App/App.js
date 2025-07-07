@@ -6,6 +6,7 @@ import Contacts from '../Components/Contacts';
 import Footer from '../Components/Footer';
 import NotFound from '../Components/NotFound';
 import Feedback from '../Components/Feedback';
+import Conditioners from '../Components/Conditioners'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import React from "react";
 const { useState, useEffect } = React
@@ -37,6 +38,7 @@ export default function App() {
             <Route path='/about' element={<AboutUs />} />
             <Route path='/contacts' element={<Contacts screenWidth = {screenWidth} screenHeight = {screenHeight} />} />
             <Route path='/feedback' element={<Feedback screenHeight = {screenHeight} />} />
+            <Route path='/conditioners' element={<Conditioners />} />
           </Routes>
       </main>
       <Footer />

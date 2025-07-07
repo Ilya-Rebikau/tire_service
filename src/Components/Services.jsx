@@ -14,9 +14,6 @@ export default class Services extends Component {
                 <h2 className="text-center"><img src={tire} alt="tire" /> Наши услуги <img src={tire} alt="tire" /></h2>
                 <div className="d-flex flex-column justify-content-center">
                     <div className="table-responsive">
-                        <h4>В стоимость за одно колесо входит: снятие и установка колеса; монтаж-демонтаж; балансировка; чистка диска от грязи;
-                            чистка диска на посадочном месте от коррозии; промазка диска пастой; промазка шины пастой.
-                        </h4>
                         <table className="table text-center align-middle table-bordered table-hover">
                             <thead className="bg-success align-middle">
                                 <tr className="text-white">
@@ -144,6 +141,9 @@ export default class Services extends Component {
                                 </tr>
                             </tbody>
                         </table>
+                        <h4 className="text-center">В стоимость за одно колесо входит: снятие и установка колеса; монтаж-демонтаж; балансировка; 
+                            чистка диска от грязи; чистка диска на посадочном месте от коррозии; промазка диска пастой; промазка шины пастой.
+                        </h4>
                     </div>
                 </div>
             </div>
