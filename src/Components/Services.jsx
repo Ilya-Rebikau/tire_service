@@ -26,91 +26,91 @@ export default class Services extends Component {
                                 <tr>
                                     <td className="align-middle" rowSpan={2}>Железные диски<br /><img src={car} alt="car" /></td>
                                     <td>R 13-14</td>
-                                    <td>14 руб. 0 коп.</td>
+                                    <td>15 руб. 0 коп.</td>
                                 </tr>
                                 <tr>
                                     <td>R 15-16</td>
-                                    <td className="align-middle">14 руб. 0 коп.</td>
+                                    <td className="align-middle">15 руб. 0 коп.</td>
                                 </tr>
                                 <tr>
                                     <td className="align-middle" rowSpan={7}>Литые диски<br /><img src={car} alt="car" /></td>
                                     <td>R 13-14</td>
-                                    <td>15 руб. 50 коп.</td>
+                                    <td>16 руб. 50 коп.</td>
                                 </tr>
                                 <tr>
                                     <td>R 15</td>
-                                    <td>15 руб. 0 коп.</td>
-                                </tr>
-                                <tr>
-                                    <td>R 16</td>
                                     <td>16 руб. 0 коп.</td>
                                 </tr>
                                 <tr>
-                                    <td>R 17</td>
+                                    <td>R 16</td>
                                     <td>17 руб. 0 коп.</td>
                                 </tr>
                                 <tr>
-                                    <td>R 18</td>
+                                    <td>R 17</td>
                                     <td>18 руб. 0 коп.</td>
                                 </tr>
                                 <tr>
-                                    <td>R 19-20</td>
+                                    <td>R 18</td>
                                     <td>19 руб. 0 коп.</td>
                                 </tr>
                                 <tr>
-                                    <td>R 21-24</td>
+                                    <td>R 19-20</td>
                                     <td>20 руб. 0 коп.</td>
+                                </tr>
+                                <tr>
+                                    <td>R 21-24</td>
+                                    <td>21 руб. 0 коп.</td>
                                 </tr>
                                 <tr>
                                     <td className="align-middle" rowSpan={4}>Джипы<br /><img src={jeep} alt="jeep" /></td>
                                     <td>R 15</td>
-                                    <td>17 руб. 0 коп.</td>
-                                </tr>
-                                <tr>
-                                    <td>R 16-17</td>
                                     <td>18 руб. 0 коп.</td>
                                 </tr>
                                 <tr>
+                                    <td>R 16-17</td>
+                                    <td>19 руб. 0 коп.</td>
+                                </tr>
+                                <tr>
                                     <td>R 18-20</td>
-                                    <td>22 руб. 0 коп.</td>
+                                    <td>23 руб. 0 коп.</td>
                                 </tr>
                                 <tr>
                                     <td>R 21-24</td>
-                                    <td>25 руб. 0 коп.</td>
+                                    <td>26 руб. 0 коп.</td>
                                 </tr>
                                 <tr>
                                     <td className="align-middle" rowSpan={4}>Диски без центрального отверстия</td>
                                     <td>R 13-14</td>
-                                    <td>19 руб. 0 коп.</td>
+                                    <td>20 руб. 0 коп.</td>
                                 </tr>
                                 <tr>
                                     <td>R 15-16</td>
-                                    <td>20 руб. 0 коп.</td>
+                                    <td>21 руб. 0 коп.</td>
                                 </tr>
                                 <tr>
                                     <td>R 17</td>
-                                    <td>20 руб. 0 коп.</td>
+                                    <td>21 руб. 0 коп.</td>
                                 </tr>
                                 <tr>
                                     <td>R 18</td>
-                                    <td>21 руб. 0 коп.</td>
+                                    <td>22 руб. 0 коп.</td>
                                 </tr>
                                 <tr>
                                     <td className="align-middle" rowSpan={4}>Микроавтобусы<br /><img src={truck} alt="truck" /></td>
                                     <td>R 14-15</td>
-                                    <td>18 руб. 0 коп.</td>
-                                </tr>
-                                <tr>
-                                    <td>R 14-15 (с шайбой)</td>
                                     <td>19 руб. 0 коп.</td>
                                 </tr>
                                 <tr>
-                                    <td>R 16</td>
+                                    <td>R 14-15 (с шайбой)</td>
                                     <td>20 руб. 0 коп.</td>
                                 </tr>
                                 <tr>
+                                    <td>R 16</td>
+                                    <td>21 руб. 0 коп.</td>
+                                </tr>
+                                <tr>
                                     <td>R 16 (Газель-Ивеко)</td>
-                                    <td>20 руб. 0 коп.</td>
+                                    <td>21 руб. 0 коп.</td>
                                 </tr>
                                 <tr>
                                     <td className="align-middle" rowSpan={2}>Раскатка дисков</td>
@@ -119,11 +119,11 @@ export default class Services extends Component {
                                 </tr>
                                 <tr>
                                     <td>Литые диски</td>
-                                    <td>От 35р. 0 коп.</td>
+                                    <td>От 40р. 0 коп.</td>
                                 </tr>
                                 <tr>
                                     <td>Сварка аргоном</td>
-                                    <td colSpan={2}>От 35р. 0 коп.</td>
+                                    <td colSpan={2}>От 40р. 0 коп.</td>
                                 </tr>
                                 <tr>
                                     <td className="align-middle" rowSpan={2}>Вентили</td>
